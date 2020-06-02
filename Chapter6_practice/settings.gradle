@@ -1,2 +1,2 @@
-include ':app', ':example6-1_textclock'
+include ':app', ':example6-1_textclock', ':example6-2_chronometer', ':example6-3_countdowntimer', ':boardgametimer', ':example6-4_timepickerdatepicker', ':example6-12_progressbar', ':example6-13_scrollView1', ':example6-13_scrollview2', ':practice6-1datepicker', ':example6-15_viewflipper', ':fragment01', ':fragment02'
 rootProject.name='Chapter6_practice'

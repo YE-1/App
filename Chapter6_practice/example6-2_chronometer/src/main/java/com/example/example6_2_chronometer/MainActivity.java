@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
@@ -23,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         btn1=findViewById(R.id.start);
         btn2=findViewById(R.id.stop);
         btn3=findViewById(R.id.reset);
+
+        // 3. 버튼 클릭 이벤트 처리
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +52,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
+        ch.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
+            @Override
+            public void onChronometerTick(Chronometer chronometer) {
+                Log.d("realTime", String.valueOf(SystemClock.elapsedRealtime()));
+            }
+        });
 
     }
 

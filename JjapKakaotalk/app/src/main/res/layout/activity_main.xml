@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/myLayout"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#FFAAAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/im">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2208문예원"
+            android:textSize="25dp"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/mySangme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="즐거운 앱프시간"
+            android:textSize="25dp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friend1Layout"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#FFAAAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ap">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/friend1Name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2208문예원"
+            android:textSize="25dp"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/friend1Sangme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="즐거운 앱프시간"
+            android:textSize="25dp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/friend2Layout"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#FFAAAA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ra">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/friend2Name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2208문예원"
+            android:textSize="25dp"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/friend2Sangme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="즐거운 앱프시간"
+            android:textSize="25dp"
+            android:gravity="center">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
