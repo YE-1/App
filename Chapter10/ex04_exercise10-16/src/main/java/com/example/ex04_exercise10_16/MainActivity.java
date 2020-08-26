@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         editTextNum1 = findViewById(R.id.editTextNum1);
         editTextNum2 = findViewById(R.id.editTextNum2);
         btnCalculate = findViewById(R.id.btnCalculate);
-
         btnCalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
