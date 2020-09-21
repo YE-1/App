@@ -1,4 +1,0 @@
-include ':calculatoreasy'
-include ':intent'
-include ':app'
-rootProject.name = "Test"

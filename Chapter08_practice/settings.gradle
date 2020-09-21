@@ -1,2 +1,0 @@
-include ':app', ':practice01_internalmemoryfileinputoutput', ':practice02_practice8-1', ':practice04_permissions', ':practice05_sdcard'
-rootProject.name='Chapter08_practice'

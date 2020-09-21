@@ -1,5 +1,0 @@
-include ':customlistview'
-include ':custom'
-include ':fragmentex'
-include ':app'
-rootProject.name = "projectfragment"
