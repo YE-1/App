@@ -1,0 +1,12 @@
+include ':practice2-2'
+include ':p2_2'
+include ':p1_2'
+include ':p2'
+include ':p1'
+include ':2208_2'
+include ':2208_1'
+include ':exercise01_optionmenu'
+include ':myapplication'
+include ':ex01_practice10-1_diy'
+include ':app'
+rootProject.name = "Practice"
